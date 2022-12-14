@@ -12,7 +12,7 @@
     <p class ="app-info">Ask any question and the magic balls have something to say.</p>
 
 
-    <form id="myform" name="askForm" onsubmit="checkInput()"; return false;>
+    <form id="myform" name="askForm" onsubmit="checkInput(); return false;">
         <label for="userName">Ask anything:</label>
         <input class="input" type="text" name="ask"onkeyup="checkInput()"   required>
         <input class="submit" type="submit" name="submit" value="submit your question" onclick="myfunc()" disabled>

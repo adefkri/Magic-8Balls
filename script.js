@@ -25,27 +25,23 @@ const response = document.getElementById("response");
     
 }
 
- function checkInput() {
+  function checkInput() {
    let ele = form.elements;
  let allFilled = true;
 
   for(let i = 0; i < ele.length; i++) {
     if(ele[i].value.length === 0) {
        allFilled = false;
+   }
+ }
+  if(allFilled) {
+ form.submit.removeAttribute("disabled");
   }
  }
- if(allFilled) {
- form.submit.removeAttribute("disabled");
- }
- }
 
 
 
-// Ask.addEventListener('submit',functon() {
-  
 
-
-// })
 
 // function ask(){
 //     let answers=document.getElementById("response");
