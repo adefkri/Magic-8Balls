@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    color: white;
+    
+}
+body{
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(to right bottom,#1a1d21,#1f2125,
+    #242428,#2d2c2f);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app-title{
+    font-size: 48px;
+    text-transform: uppercase;
+    padding: 32px;
+    font-weight: 300;
+}
+
+.app-info{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 16px;
+    margin: 32px 0;
+}
+
+.input {
+    color: black;
+    border-radius: 20%;
+    height: 50px;
+    width: 300px;
+    background-color: antiquewhite;
+
+}
+.submit{
+    color: black;
+    border-radius: 20%;
+    height: 50px;
+    width: 130px;
+    background-color: antiquewhite;
+}
+
+.magicball-outer {
+    width: 350px;
+    height: 350px;
+    background:black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+    border-radius: 50%; 
+    box-shadow:  32px 32px 27px #0a0a0a,
+   -32px -32px 27px #2a2828;
+   position: relative;
+
+}
+
+.magicball-inner{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.magic-response{
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+    line-height: 20px;
+   
+}

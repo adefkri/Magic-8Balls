@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magic balls</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 class="app-title">Magic balls game</h2>
+    <p class ="app-info">Ask any question and the magic balls have something to say.</p>
+
+
+    <form id="myform" name="askForm" onsubmit="checkInput()"; return false;>
+        <label for="userName">Ask anything:</label>
+        <input class="input" type="text" name="ask"onkeyup="checkInput()"   required>
+        <input class="submit" type="submit" name="submit" value="submit your question" onclick="myfunc()" disabled>
+
+<div class="magicball-outer" id="mb-container">
+    <div class="magicball-inner">
+        <h2 class="magic-response" id="response">8</h2>
+     </div>
+ </div> 
+ <p class="app-info">Try to ask more clearly to get accurate answer</p>
+ <script src="script.js"></script>
+</body>
+</html>
